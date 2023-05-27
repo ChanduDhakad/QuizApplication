@@ -8,7 +8,8 @@ This project is a REST API for a Quiz Application. The API allows users to creat
 - MySQL
 - Swagger UI
 - Maven
-- Endpoints
+
+# Endpoints
 - POST /quizzes: Create a new quiz by sending a POST request to this endpoint. The request body should include the question, options, rightAnswer, startDate, and endDate.
 
 - GET /quizzes/active: Retrieve the active quiz (the quiz that is currently within its start and end time) by sending a GET request to this endpoint.
